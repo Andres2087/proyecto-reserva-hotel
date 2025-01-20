@@ -90,6 +90,13 @@ document.addEventListener("DOMContentLoaded", function () {
                   .then(data => {
                       if (data.detail) {
                           console.log("Detalles del error:", data.detail);
+                          console.log("Detalles del error:", data.detail);
+                          Swal.fire({ 
+                            title: "No se registró la reserva", 
+                            text: data.detail,  // Aquí se muestra el mensaje de error
+                            icon: "error",
+                            confirmButtonText: 'Intentar de nuevo' 
+                        });
                       } else {
                           // Si la reserva se ha registrado correctamente, muestra el mensaje con SweetAlert
                           Swal.fire({
