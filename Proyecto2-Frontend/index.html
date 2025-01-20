@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas Hoteles Home</title>
+    <script src="js/consultar.js"></script> 
+    <script src="js/enviardatosconsultar.js"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/layout.css">
+</head>
+<body>
+    <header>
+        <div id="titulo">
+            <h1>HotelReserve.com</h1>
+            <img src="imagenes/travel.png" alt="">
+        </div>
+            <nav class="contenedornav" id="contenedornav">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="sobrenosotros.html">Sobre nosotros</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+        <section id="seccionuno">
+            <article class="contenido-banner">
+                <div class="banner-text">
+                    <h2>Confort y aventura <br>todo en un solo destino</br></h2>
+                    <p>Reserva el alojamiento perfecto para ti</p>
+                    <button onclick="window.location.href='hoteles.html'">Descubre los mejores Hoteles</button>
+                </div>
+                <div id="img1" class="imagenbanner"></div>
+            </article>
+        </section>
+        <section id="secciondos">
+            <div class="search-container">
+                <form action="seleccionhabitacion.html">
+                    <div class="form-field">
+                        <select id="ci" placeholder="¿A qué ciudad vas?">
+                            <option value="" disabled selected>Elige una ciudad</option>
+                            <!-- Las opciones se llenarán dinámicamente con JavaScript -->
+                        </select>
+                    </div>
+                    <div class="form-field">
+                        <select id="ho" placeholder="Hotel">
+                            <option value="" disabled selected>Elige un hotel</option>
+                            <!-- Las opciones se llenarán dinámicamente con JavaScript -->
+                        </select>
+                    </div>
+                    <div class="form-field">
+                        <input type="date" id="fi" >
+                    </div>
+                    <div class="form-field">
+                        <input type="date" id="ff" >
+                    </div>
+                    <div class="form-field">
+                        <input type="number" id="cant" placeholder="Cantidad de personas" min="1" max="6" style="width: 192px;">
+                    </div>
+                    <div class="form-field">
+                        <button type="submit" id="consultar">Consultar</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p id="p1">© 2025 HotelReserve.com</p>
+            <div class="redes">
+                
+                <div class="icons">
+                    <img src="imagenes/facebook_108044.png" alt="Facebook">
+                    <img src="imagenes/instagram_108043.png" alt="Instagram">
+                    <img src="imagenes/whatsapp_108042.png" alt="WhatsApp">
+                    <img src="imagenes/youtube_108041.png" alt="YouTube">
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

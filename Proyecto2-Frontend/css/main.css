@@ -1,0 +1,127 @@
+/* Sección del banner */
+#seccionuno{
+    display: flex;
+    justify-content: center;
+    background-color: 0;
+}
+
+.contenido-banner{
+    background-color: 0;
+    width: 100%;
+    position: relative;
+}
+
+.imagenbanner{
+    background-color: 0;
+    height: 550px;
+}
+
+#img1{
+    background-image: url('../imagenes/fondo9.jpg');
+    background-size: cover;
+}
+
+.banner-text{
+    position: absolute;
+    top: 14%;
+    left: 15%;
+    text-align: left;
+}
+
+.banner-text h2{
+    color: #ffffff;
+    font-size: 65px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 6px 6px 6px rgba(0, 0, 0, 1);
+}
+
+.banner-text p{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 20px;
+    text-shadow: 6px 6px 6px rgba(0, 0, 0, 1);
+}
+
+.banner-text button{
+    background-color: rgb(45, 98, 214);
+    border: none;
+    color: #ffffff;
+    margin-top: 30px;
+    padding: 15px 20px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.banner-text button:hover{
+    background-color: rgb(7, 36, 80); 
+}
+
+
+#secciondos{background-color: 0;
+    position: relative;
+    background-color: 0;  
+    width: 100%;
+    z-index: 1; 
+}
+
+.search-container{
+    position: relative;
+    background-color: rgba(47, 138, 241, 0.7);
+    backdrop-filter: blur(5px);
+    top: 50%; /* Sitúa el contenedor al 50% de la altura de la imagen */
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 65%; 
+    border-radius: 10px;
+    z-index: 2; 
+}
+
+form{
+    display: flex;
+    justify-content: space-evenly ;   
+}
+
+.form-field{
+    background-color: 0;
+    padding: 12px;  
+}
+
+
+.search-container select{
+    width: 200px;
+    padding: 20px 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.search-container input{
+    width: 100%;
+    padding: 20px 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+
+#consultar{
+    background-color: rgb(28, 88, 216);
+    color: white;
+    padding: 20px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#consultar:hover{
+    background-color: rgb(7, 36, 80); 
+}

@@ -1,0 +1,31 @@
+footer {
+    background-color: rgb(0, 59, 149);
+    padding: 13px;
+}
+
+.footer-content { 
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center; 
+    max-width: 800px; 
+    margin: auto; 
+}
+
+#p1 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.redes {
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    gap: 10px; 
+}
+
+.icons img {
+    height: 50px;
+    width: 50px;
+}

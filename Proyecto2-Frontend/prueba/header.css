@@ -1,0 +1,69 @@
+header{
+    background: rgb(6, 17, 160);
+    display: flex;  /* Que sea flexible que si la etiqueta es en bloque deje ponerla al lado */
+    height: 150px;
+}
+
+#logotitulo{
+    background-color: 0;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+#contenedornav{
+    background-color: 0;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 50%;  /*Siempre porcientaje*/
+}
+
+ul{
+    background-color: 0;
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly ;
+}
+
+li{
+    background: rgb(135,227,235);
+    background: linear-gradient(80deg, rgba(135,227,235,1) 0%, rgba(91,132,255,1) 72%, rgba(68,76,245,1) 100%);
+    display: inline;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+li:hover{
+    background: rgb(131,58,180);
+    background: linear-gradient(80deg, rgba(131,58,180,1) 0%, rgba(246,79,79,1) 52%, rgba(252,69,69,1) 100%);
+}
+
+li:hover a{
+    color: rgb(255, 255, 255);
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    background-color: 0;
+    height: auto;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: miletra;
+    color: rgb(63, 161, 226);
+    margin-left: 40px;
+}
+
+img{
+    height: 60px;
+    width: 60px;
+    margin-left: 15px;
+}
+

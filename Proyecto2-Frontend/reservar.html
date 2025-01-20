@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmar Reserva</title>
+    <script src="js/reservar.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/reservar.css">
+    <link rel="stylesheet" href="css/layout.css">
+</head>
+<body>
+    <header>
+        <div id="titulo">
+            <h1>HotelReserve.com</h1>
+            <img src="imagenes/travel.png" alt="">
+        </div>
+            <nav class="contenedornav" id="contenedornav">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="sobrenosotros.html">Sobre nosotros</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+        <section id="principal">
+            <section id="izquierda">
+                <section id="info-hotel">
+                    <article class="contenido1">
+                        <!-- Info hotel -->
+                        <h2 class="hotel-nombre"></h2>
+                        <p class="hdireccion"></p>
+                    </article>
+                </section>
+                <section id="datos-reserva">
+                        <!-- Datos reserva -->
+                    <article class="contenido2">
+                        <h2 class="titulo">Los datos de tu reserva</h2>
+                        <div class="fecha">
+                            <p class="entrada">Entrada<br>mar, 21 ene 2025</p>
+                            <p class="salida">Salida<br>vie, 24 ene 2025</p>
+                        </div>
+                        <p class="duracion">Duración de la estancia:<br>x noches</p>
+                        <p class="cant">Has seleccionado: <br>Habitación tipo para x personas</p>
+                    </article>    
+                </section>
+                <section id="precio-reserva">
+                    <article class="contenido3">
+                        <!-- Precio Total -->
+                        <p class="precio">Precio Final</p>
+                        <p class="preciototal">COP x</p>
+                    </article>
+                </section>
+            </section>
+            <section id="derecha">
+                <div class="contenedor-form">
+                    <div id="formulario-reserva">
+                        <h2>Introduce tus datos</h2>
+                    </div>
+                    <fieldset>
+                        <form action="">
+                            <div class="inputxt">
+                                <label for="nom">Nombre</label>
+                                <input type="text" id="nom" placeholder="Ingrese su nombre">
+                            </div>
+                            <div class="inputxt">
+                                <label for="ape">Apellido</label>
+                                <input type="text" id="ape" placeholder="Ingrese su apellido">
+                            </div>
+                            <div class="inputxt">
+                                <label for="cor">Correo</label>
+                                <input type="email" id="cor" placeholder="Ingrese su correo electrónico">
+                            </div>
+                            <div class="inputxt">
+                                <label for="cel">Celular</label>
+                                <input type="text" id="cel" placeholder="Ingrese su número de celular">
+                            </div>
+                            <div>
+                                <button class="btn" type="button" id="boton">Confirmar Reserva</button>
+                            </div>
+                        </form>
+                    </fieldset> 
+                </div>
+            </section>
+        </section>       
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p id="p1">© 2025 HotelReserve.com</p>
+            <div class="redes">
+                
+                <div class="icons">
+                    <img src="imagenes/facebook_108044.png" alt="Facebook">
+                    <img src="imagenes/instagram_108043.png" alt="Instagram">
+                    <img src="imagenes/whatsapp_108042.png" alt="WhatsApp">
+                    <img src="imagenes/youtube_108041.png" alt="YouTube">
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

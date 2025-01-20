@@ -1,0 +1,133 @@
+.hotel-card {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 800px;
+    background-color: #ffffff;
+    padding: 15px 0; 
+}
+
+/* Imagen del hotel */
+.hotel-image {
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Información del hotel */
+.hotel-info {
+    padding: 20px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hotel-info h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #003b95;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.hotel-direccion {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Pie de la card */
+.hotel-datos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hotel-precio {
+    font-size: 18px;
+    font-weight: bold;
+    color: #007b1e;
+}
+
+/* Botón de disponibilidad */
+.disponibilidad-btn {
+    background-color: #003b95;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.disponibilidad-btn:hover {
+    background-color: #0056b3;
+}
+
+
+/* Estilo del formulario de búsqueda */
+.search-form {
+    background-color: rgb(206, 230, 250);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 500px; /* Ampliar ancho */
+    color: #fff;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr ; /* Tres columnas */
+    grid-gap: 20px;
+    align-items: center;
+    border: 1px solid #6fb1fc;
+}
+
+.search-form label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: block;
+    color: #000;
+}
+
+.search-form input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #6fb1fc;
+}
+
+.search-form button {
+    grid-column: span 4; /* Ocupar toda la fila inferior */
+    justify-self: center;
+    padding: 13px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #0056b3;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.search-form button:hover {
+    background-color: #003b95;
+}
+
+.search-form .field-group {
+    display: flex;
+    flex-direction: column;
+}

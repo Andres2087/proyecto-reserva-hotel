@@ -1,0 +1,152 @@
+main{
+    background-color: 0;
+}
+
+#seccionuno{
+    background-color: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contenido{
+    background: rgb(135,227,235);
+    background: linear-gradient(180deg, rgba(135,227,235,1) 0%, rgba(91,132,255,1) 72%, rgba(68,76,245,1) 100%);
+    margin: 5px;
+    height: auto;
+    width: 22%;
+    padding: 10px; 
+    border-radius: 20px;
+    box-shadow: 0 5px 10px #000;
+}
+
+.imagen{
+    height: 200px;
+    margin-bottom: 15px;
+}
+
+#img1{
+    background-image: url('../imagenes/supermarioodysseyconsejos.avif');
+    /*background-size: contain;
+    background-repeat: no-repeat;*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    border-radius: 10px;
+}
+
+#img2{
+    background-image: url('../imagenes/NES_01.gif');
+    /*background-size: contain;
+    background-repeat: no-repeat;*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    border-radius: 10px;
+}
+
+#img3{
+    background-image: url('../imagenes/lore-hollow-knight.jpg');
+    /*background-size: contain;
+    background-repeat: no-repeat;*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    border-radius: 10px;
+}
+
+#img4{
+    background-image: url('../imagenes/K6TJSY3SGNDCBKDOKZJKH7HGIA.jpg');
+    /*background-size: contain;
+    background-repeat: no-repeat;*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    border-radius: 10px;
+}
+
+p{
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+}
+
+#secciondos{
+    background-image: url('../imagenes/gameover.png');
+    /*background-size: contain;
+    background-repeat: no-repeat;
+    object-fit: contain;*/
+    background-size: contain;
+    height: 400px;
+    width: 100%;
+    margin-top: 20px;
+    /*max-width: 100%;*/
+}
+
+#secciondos article{
+    background-color: rgba(255,255,255,0.8);
+    height: 400px;
+    /*filter: blur(90px);*/
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+#secciondos div{
+    background-color: 0;
+    width: 70%;
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+@media(min-width: 310px) and (max-width: 520px){
+    main{
+        width: 100%;
+        background-color: 0;
+    }
+    
+    #seccionuno{
+        background-color: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .contenido{
+        background: rgb(135,227,235);
+        background: linear-gradient(180deg, rgba(135,227,235,1) 0%, rgba(91,132,255,1) 72%, rgba(68,76,245,1) 100%);
+        margin: 5px;
+        height: auto;
+        width: 90%;
+        padding: 10px; 
+        border-radius: 20px;
+        box-shadow: 0 5px 10px #000;
+    }
+}
+
+
+@media(min-width: 521px) and (max-width: 780px){
+    main{
+        width: 100%;
+        background-color: 0;
+    }
+    
+    #seccionuno{
+        background-color: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .contenido{
+        background: rgb(135,227,235);
+        background: linear-gradient(180deg, rgba(135,227,235,1) 0%, rgba(91,132,255,1) 72%, rgba(68,76,245,1) 100%);
+        margin: 5px;
+        height: auto;
+        width: 40%;
+        padding: 10px; 
+        border-radius: 20px;
+        box-shadow: 0 5px 10px #000;
+    }
+}

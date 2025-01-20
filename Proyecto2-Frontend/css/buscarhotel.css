@@ -1,0 +1,67 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f4f7fa;
+    width: 100%;
+}
+
+.container{
+    margin: auto;
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.container h1{
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.search-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.input-container{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+.input-container input{
+    padding: 12px 40px 12px 20px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+}
+
+.input-container input:focus{
+    border-color: rgb(8, 0, 255);
+}
+
+.search-btn{
+    position: absolute;
+    right: 10px;
+    background: none;
+    border: none;
+    color: #888;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.search-btn:hover{
+    color: rgb(8, 0, 255);
+}
+
+#resultado div{
+    color: rgb(2, 2, 46);
+    font-size: 20px;
+    font-weight: bold;
+}

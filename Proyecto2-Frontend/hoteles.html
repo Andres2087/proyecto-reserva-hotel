@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/hoteles.css">
+</head>
+<body>
+    <header>
+        <div id="titulo">
+            <h1>HotelReserve.com</h1>
+            <img src="imagenes/travel.png" alt="">
+        </div>
+            <nav class="contenedornav" id="contenedornav">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="sobrenosotros.html">Sobre nosotros</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+        <!-- Formulario de búsqueda -->
+        <div class="search-form">
+            <div class="field-group">
+                <label for="ciudad">Ciudad:</label>
+                <input type="text" id="ciudad" list="ciudades" name="ciudad" placeholder="Seleccione la ciudad donde desea hospedarse" required>
+                <datalist id="ciudades">
+                            
+                </datalist>
+            </div>
+            <button type="submit" class="full-width">Buscar</button>
+        </div>       
+        <!-- Cards de hoteles -->
+        <div class="hotel-card">
+            <img src="imagenes/hotelprueba.jpg" alt="Hotel El Paraíso" class="hotel-image">
+            <div class="hotel-info">
+                <h2>Hotel El Paraíso</h2>
+                <p class="hotel-direccion">Carrera 45 #123-45</p>
+                <div class="hotel-datos">
+                    <p class="hotel-precio">COP 56,000 por noche</p>
+                    <button class="disponibilidad-btn" onclick="window.location.href='seleccionhabitacion.html'">Ver Disponibilidad</button>
+                </div>
+            </div>
+        </div>
+        <div class="hotel-card">
+            <img src="imagenes/hotelprueba.jpg" alt="Hotel El Paraíso" class="hotel-image">
+            <div class="hotel-info">
+                <h2>Hotel El Paraíso</h2>
+                <p class="hotel-direccion">Carrera 45 #123-45</p>
+                <div class="hotel-datos">
+                    <p class="hotel-precio">COP 56,000 por noche</p>
+                    <button class="disponibilidad-btn" onclick="window.location.href='seleccionhabitacion.html'">Ver Disponibilidad</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p id="p1">© 2025 HotelReserve.com</p>
+            <div class="redes">
+                
+                <div class="icons">
+                    <img src="imagenes/facebook_108044.png" alt="Facebook">
+                    <img src="imagenes/instagram_108043.png" alt="Instagram">
+                    <img src="imagenes/whatsapp_108042.png" alt="WhatsApp">
+                    <img src="imagenes/youtube_108041.png" alt="YouTube">
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultar disponibilidad habitaciones</title>
+    <script src="js/recibirdatosconsultar.js"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/selec-habitacion.css">
+    <link rel="stylesheet" href="css/layout.css">
+</head>
+<body>
+    <header>
+        <div id="titulo">
+            <h1>HotelReserve.com</h1>
+            <img src="imagenes/travel.png" alt="">
+        </div>
+            <nav class="contenedornav" id="contenedornav">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="sobrenosotros.html">Sobre nosotros</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+    <section id="principal">
+        <fieldset>
+            <form action="">
+                <div class="inputxt">
+                    <label for="fentrada">Fecha de entrada</label>
+                    <input type="date" id="fentrada" >
+                </div>
+                <div class="inputxt">
+                    <label for="fsalida">Fecha de salida</label>
+                    <input type="date" id="fsalida">
+                </div>
+                <div class="inputxt">
+                    <label for="cantp">Cantidad de personas</label>
+                    <input type="number" id="cantp" min="1" max="6">
+                </div>
+                <div class="inputxt">
+                    <label for="">Tipo de habitación</label>
+                    <select id="tipoha" >
+                        <option value="" disabled selected>Elije un tipo de habitación</option>
+                        <option value="Standard">Standard</option>
+                        <option value="Ejecutiva">Ejecutiva</option>
+                        <option value="Familiar">Familiar</option>
+                        <option value="Deluxe">Deluxe</option>
+                    </select>
+                </div>
+                
+            </form>
+        </fieldset>
+        <section id="parte2">
+            <section id="hotel">
+                <article class="contenido">
+                    <!-- Nombre del hotel -->
+                    <h2 class="hotel-nombre"></h2>
+
+                    <!-- Contenedor principal de la foto y la información -->
+                    <div class="hotel-detalles">
+                        <!-- Foto del hotel -->
+                        <div class="hotel-foto">
+                            <img src="" alt="Foto del Hotel">
+                        </div>
+
+                        <!-- Información del hotel -->
+                        <div class="hotel-info">
+                            <!-- Dirección del hotel -->
+                            <p class="hotel-direccion"></p>
+
+                            <!-- Precio -->
+                            <p class="hotel-precio">COP <span id="precio">0</span><br>Precio para <span id="numero-noches">0</span> noches</p>
+
+
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <section id="habitaciones">
+                <!-- Título de la sección -->
+                <h2>Habitaciones disponibles</h2>
+                
+                <!-- Contenedor de las habitaciones -->
+                <div class="habitaciones-grid">
+                    <div class="habitacion"></div>
+                </div>
+                <!-- Botón de reservar -->
+                <button id="reservar-btn" disabled>Reservar</button>
+            </section>
+        </section>
+    </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p id="p1">© 2025 HotelReserve.com</p>
+            <div class="redes">
+                
+                <div class="icons">
+                    <img src="imagenes/facebook_108044.png" alt="Facebook">
+                    <img src="imagenes/instagram_108043.png" alt="Instagram">
+                    <img src="imagenes/whatsapp_108042.png" alt="WhatsApp">
+                    <img src="imagenes/youtube_108041.png" alt="YouTube">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/habitaciones.js"></script>
+</body>
+</html>
+
+
