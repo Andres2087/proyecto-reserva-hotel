@@ -40,25 +40,25 @@
             <div class="search-container">
                 <form action="seleccionhabitacion.html">
                     <div class="form-field">
-                        <select id="ci" placeholder="¿A qué ciudad vas?">
+                        <select id="ci" placeholder="¿A qué ciudad vas?" required>
                             <option value="" disabled selected>Elige una ciudad</option>
                             <!-- Las opciones se llenarán dinámicamente con JavaScript -->
                         </select>
                     </div>
                     <div class="form-field">
-                        <select id="ho" placeholder="Hotel">
+                        <select id="ho" placeholder="Hotel" required>
                             <option value="" disabled selected>Elige un hotel</option>
                             <!-- Las opciones se llenarán dinámicamente con JavaScript -->
                         </select>
                     </div>
                     <div class="form-field">
-                        <input type="date" id="fi" >
+                        <input type="date" id="fi" required>
                     </div>
                     <div class="form-field">
-                        <input type="date" id="ff" >
+                        <input type="date" id="ff" required>
                     </div>
                     <div class="form-field">
-                        <input type="number" id="cant" placeholder="Cantidad de personas" min="1" max="6" style="width: 192px;">
+                        <input type="number" id="cant" placeholder="Cantidad de personas" min="1" max="6" style="width: 192px;" required>
                     </div>
                     <div class="form-field">
                         <button type="submit" id="consultar">Consultar</button>
